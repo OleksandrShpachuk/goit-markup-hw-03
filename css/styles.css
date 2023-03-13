@@ -14,6 +14,8 @@ body {
 
 /* ============= COPMPONENTS ======================= */
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -55,7 +57,20 @@ body {
 
 /* ===============COMPONENTS====================== */
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Header */
+
+.header-padding {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -120,6 +135,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
+  margin-top: 0;
+  margin-bottom: 48px;
+
   color: #ffffff;
 }
 
@@ -128,15 +146,22 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
+
+  align-items: center;
+  border-radius: 4px;
 
   color: #ffffff;
   background-color: var(--primary-brand-color);
 }
 
 /* Section ADVANTAGES */
+
+.adv-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .adv-subtitle {
   font-family: "Roboto", sans-serif;
@@ -145,10 +170,24 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
+  margin-top: 0;
+  margin-bottom: 8px;
+
   color: var(--title-text-color);
 }
 
+.text-padding {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Section WORK */
+
+.work-padding {
+  padding-top: 0;
+  padding-bottom: 120px;
+}
+
 .work-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -158,10 +197,20 @@ body {
   text-transform: capitalize;
   text-align: center;
 
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 72px;
+
   color: #2e2f42;
 }
 
 /* Section  TEAM*/
+
+.team-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .team-title {
   font-family: "Roboto", sans-serif;
@@ -171,6 +220,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 72px;
 
   color: #2e2f42;
 }
@@ -182,6 +236,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
+  margin-top: 0;
+  margin-bottom: 0px;
+
   color: #2e2f42;
 }
 
@@ -192,10 +249,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: #434455;
 }
 
 /* Footer */
+
+.footer-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 .footer {
   background-color: #2e2f42;
@@ -230,6 +295,16 @@ body {
 
 /* Filter */
 
+.padding {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.filter-list {
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+
 .filter-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -256,6 +331,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
+  margin-top: 32;
+  margin-bottom: 8px;
+
   color: #2e2f42;
 }
 
@@ -265,6 +343,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  margin-top: 0;
+  margin-bottom: 0;
   
   color: #434455;
 }
