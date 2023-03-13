@@ -70,6 +70,19 @@ body {
 .header-padding {
   padding-top: 24px;
   padding-bottom: 24px;
+
+  display: flex;
+}
+
+.nav {
+  display: flex;
+}
+
+
+.nav li {
+  outline: solid turquoise;
+  margin-right: 40px;
+
 }
 
 .logo {
@@ -85,6 +98,10 @@ body {
 
 .color {
   color: #2e2f42;
+}
+
+.menu{
+  display: flex;
 }
 
 .menu-link {
