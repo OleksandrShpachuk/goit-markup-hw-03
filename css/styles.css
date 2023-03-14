@@ -380,6 +380,13 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid #E7E9FC
+  border-radius: 4px;
+
   color: var(--primary-brand-color);
 }
 
@@ -387,6 +394,7 @@ body {
 .filter-button:focus {
   color: #e7e9fc;
   background-color: var(--primary-brand-color);
+  border-radius: 4px;
 }
 
 /*======== Filter ======== */
