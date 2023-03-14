@@ -186,7 +186,7 @@ body {
   background-color: var(--primary-brand-color);
 }
 
-/* Section ADVANTAGES */
+/* ==== Section ADVANTAGES ==== */
 
 .adv-list {
   display: flex;
@@ -215,8 +215,9 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+/* ==== Section ADVANTAGES ==== */
 
-/* Section WORK */
+/* ======= Section WORK ======== */
 
 .work-title {
   font-family: "Roboto", sans-serif;
@@ -245,7 +246,9 @@ body {
   margin-right: 24px;
 }
 
-/* Section  TEAM*/
+/* ======= Section WORK ======== */
+
+/*======== Section OUR TEAM ========*/
 
 .team {
   background-color: #F4F4FD;
@@ -307,7 +310,9 @@ body {
   color: #434455;
 }
 
-/* Footer */
+/*======== Section OUR TEAM ========*/
+
+/*=========== Footer ============== */
 
 .footer-padding {
   padding-top: 100px;
@@ -345,9 +350,11 @@ body {
   color: #e7e9fc;
 }
 
+/*=========== Footer ============== */
+
 /* -------PORTFOLIO PAGE--------- */
 
-/* Filter */
+/*======== Filter ======== */
 
 
 .filter-list {
@@ -382,7 +389,9 @@ body {
   background-color: var(--primary-brand-color);
 }
 
-/* Works list */
+/*======== Filter ======== */
+
+/*========= Works list ======== */
 
 .works-list {
   display: flex;
@@ -425,3 +434,5 @@ body {
   
   color: #434455;
 }
+
+/*========= Works list ======== */
