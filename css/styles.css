@@ -67,22 +67,15 @@ body {
 
 /* Header */
 
-.header-padding {
+.header {
+  display: flex;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-
-  display: flex;
 }
 
 .nav {
   display: flex;
-}
-
-
-.nav li {
-  outline: solid turquoise;
-  margin-right: 40px;
-
 }
 
 .logo {
@@ -93,6 +86,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
+  margin-right: 76px;
+
   color: var(--primary-brand-color);
 }
 
@@ -102,6 +97,11 @@ body {
 
 .menu{
   display: flex;
+  align-items: center;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .menu-link {
@@ -121,6 +121,17 @@ body {
 
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.address-list {
+  display: flex;
+  align-items: center;
+
+}
+
+.address-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .address-link {
